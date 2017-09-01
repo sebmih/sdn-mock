@@ -1,0 +1,23 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "Mock for CloudView",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon app/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bytex Software Services",
+  "license": "CC BY-NC-ND 4.0",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "chance": "^1.0.4",
+    "express": "^4.14.1",
+    "express-session": "^1.15.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "nodemon": "^1.11.0"
+  }
+}
